@@ -65,7 +65,7 @@ public class NewJumblrMain {
             }
             System.out.println("TUMBLR TUMRBLRRRKLKRKRLKRLRKLRKLRKL map"+map);
             // System.out.println(showName+"    "+tumblerPage);
-            RefactoredTumblrLoader.loadNewTumblrData(tumblrSqlLayer,map);
+        //    RefactoredTumblrLoader.loadNewTumblrData(tumblrSqlLayer,map);
 
         } catch (IOException e) {
             e.printStackTrace();

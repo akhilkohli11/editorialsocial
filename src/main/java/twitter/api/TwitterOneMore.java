@@ -19,7 +19,7 @@ public class TwitterOneMore {
             BufferedReader br = null;
             try {
 
-                TwitterDataRetriever.getTweets(5000, LoadApp.getSocialMysqlLayer(),201,405);
+             //   TwitterDataRetriever.getTweets(5000, LoadApp.getSocialMysqlLayer(),201,405);
 
             } catch (Exception e) {
                 e.printStackTrace();

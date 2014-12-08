@@ -17,7 +17,7 @@
         {
 
             try {
-                TwitterDataRetriever.getTweets(5000, socialMysqlLayer,start,end);
+               // TwitterDataRetriever.getTweets(5000, socialMysqlLayer,start,end);
                 count++;
             }
             catch (Exception e)
