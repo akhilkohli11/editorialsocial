@@ -14,7 +14,6 @@ public static void main(String args[])
 
     public void init() {
         try {
-        //    Zap2ItSolrApi.init();
             CloudSolrPersistenceLayer.getInstance().init();
             InitializePopularDocuments.init();
             Aggregator aggregator=new Aggregator();
@@ -27,7 +26,6 @@ public static void main(String args[])
 //            aggregator.aggregateTotal();
 //            aggregator.delete();
       //      aggregator.init();
-//            Zap2ItSolrApi.init();
 //            Thread.sleep(10000);
 //            SocialXMLParser.init();
 //            Thread.sleep(2000);
